@@ -16,8 +16,7 @@ $('document').ready(function(){
                 return;
             }
           $.getJSON("https://crossorigin.me/https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search="+a+"&limit=10", function(data){
-        
-     
+         
               document.getElementById("body").style.background="  linear-gradient(to right, #f0f2f0, #000c40)";
               
               for(var i=1; i<=9; i++){
@@ -27,7 +26,7 @@ $('document').ready(function(){
               document.getElementById("div"+i).style. boxShadow="0 0px 20px 0 rgba(0, 0, 0, 0.99),0 10px 20px 0 rgba(0, 0, 0, 0.99)";
             
               }
-            
+     
               
       for(var i=1; i<=9; i++)
             {
